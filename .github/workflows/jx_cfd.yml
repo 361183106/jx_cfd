@@ -24,7 +24,7 @@ jobs:
                   node-version: 10.x
             - name: npm install
               run: |
-                  npm install got download tough-cookie crypto-js
+                  npm install got download tough-cookie
             - name: "运行 【京喜财富岛】"
               run: |
                   node jx_cfd.js
